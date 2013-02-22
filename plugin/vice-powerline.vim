@@ -1,5 +1,7 @@
-call vice#ForceActivateAddon('github:Lokaltog/vim-powerline')
-call vice#Extend({'addons': ['github:zeekay/vim-powerline-hax']})
+call vice#Extend({'addons': [
+    \ 'github:Lokaltog/vim-powerline',
+    \ 'github:zeekay/vim-powerline-hax',
+\ ]})
 
 let g:Powerline_symbols_override = {
     \ 'FUGITIVE': '∓ ',
